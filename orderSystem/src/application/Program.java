@@ -12,9 +12,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner scan = new Scanner(System.in);
 		
-		Product p = new Product("tv", 1000.0); 
-		OrderItem test1 = new OrderItem(1, 1000.0, p);
-		System.out.println(test1);
+
 		
 		
 		scan.close();
